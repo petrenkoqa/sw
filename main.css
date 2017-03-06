@@ -1,0 +1,315 @@
+
+header{
+  background-color:   #9F0010;
+  
+}
+ul.topmenu li{
+  position:relative;
+  float:left;
+  left:-50%;
+  list-style:none;
+  padding:30px;
+
+
+  
+}
+  
+ul.topmenu{  
+  list-style: none;
+margin: 0;
+padding: 0;
+position: relative;
+left: 50%;
+float: left;
+ display:flex;
+ flex-grow:1;
+ justify-content:space-around;
+ flex-wrap:wrap;
+ 
+}
+ 
+
+.clearfix{
+  clear:left;
+}
+.swshop{
+  position:relative;
+  margin-top:20px;
+  font-size:29px;
+  text-align:center;
+  background-color:grey;
+  color:white;
+}
+
+/* Styles for products menu */
+
+#slow_nav  ul{
+ margin-top:20px;  
+padding: 0;
+position: relative;
+left: 50%;
+float: left;
+display:flex;
+ flex-grow:1;
+ justify-content:space-around;
+ flex-wrap:wrap;
+  
+}
+
+
+ 
+#slow_nav > ul > li{
+    list-style: none;  
+    position:relative;
+    padding:0;
+    margin:0;
+  float:left;
+   left:-50%;
+  flex-direction:column;
+   
+ 
+    
+}
+ 
+#slow_nav a{text-decoration:none;}
+ 
+#slow_nav > ul > li > a{
+    font-size:18px;
+    padding:10px;
+    background-color:#8E1C1C; 
+    color:#fff;
+}
+
+#slow_nav > ul > li > a:hover{
+    font-size:18px;
+    padding:10px;
+    background-color:black; 
+    color:#fff;
+}
+
+
+
+ 
+#slow_nav li ul{
+    position:absolute;
+    list-style:none;
+    text-align:center;
+    top:10px;
+    font-size:18px;
+    left:0;
+    margin:0;
+    padding:0;
+    max-height:0px;
+    overflow:hidden;
+  
+    transition:max-height 0.2s linear;
+    display:flex;
+   flex-direction:column;
+  overflow:hidden;
+
+
+}
+ 
+#slow_nav li:hover ul{
+    max-height:300px;
+    
+}
+
+
+ 
+#slow_nav li ul li{
+    background-color: #9F0010;
+    border-bottom:1px solid #888;
+}
+
+ 
+#slow_nav li ul li:last-child{
+    border-bottom:none;
+}
+ 
+#slow_nav li ul li a{
+    padding:10px 15px;
+
+    color:#fff;
+    display:block;
+}
+ 
+#slow_nav li ul li:hover{
+    background-color:black;
+  
+}
+ 
+#slow_nav li ul li:first-child{
+    margin-top:25px;
+    position:relative;
+}
+ 
+#slow_nav li ul li:first-child:before{
+    content:'';
+    position:absolute;
+    width:1px;
+    height:1px;
+    border:5px solid transparent;
+    border-bottom-color:#333;
+    left:10px;
+    top:-10px;
+   
+}
+
+
+
+/*  styles for main article*/
+p{
+  font-size:22px;
+}
+  
+.h4h{
+ margin-top:80px;
+  font-family:Tahoma;
+
+ font-size:23px;
+      color:black; 
+}
+.h5h{
+   font-family:Tahoma;
+  color:#9F0010;
+  font-size:20px;
+  text-decoration:underline;
+ 
+}
+  
+
+.photocard{
+  opacity:0.6;
+  float:left;
+  margin: 4px 12px 5px 0;
+  border-radius: 19px;
+  padding:6px;
+  transition:1.5s;
+    
+}
+.photocard:hover{
+  opacity:1;
+  transition:1.5s;
+}
+
+
+.add{
+  color:red;
+  font-size:25px;
+  margin-right:20px;
+  font-weight: bold;
+  
+}
+
+hr{  
+    background-color: red; 
+    height: 1px;
+}
+
+h3{
+  font-size:25px;
+  text-align:center;
+  padding:8px;
+  color:#9F0010;
+}
+
+
+.rogue{
+  margin-left:20px;
+  margin-bottom:30px;
+  border:2px solid grey;
+  border-radius:10px;
+  transform:scale(1,1);
+  transition:1s;
+}
+
+.rogue:hover{
+   transform:scale(1.3,1.3);
+  transition:1s;
+}
+
+.force{
+  margin-left:40px;
+  margin-bottom:30px;
+  border:1px solid grey;
+  border-radius:10px;
+ transform:scale(1,1);
+  transition:1s;
+
+}
+.force:hover{
+   transform:scale(1.3,1.3);
+  transition:1s;
+}
+.season1{
+  margin-left:40px;
+  margin-bottom:30px;
+  border:1px solid grey;
+  border-radius:10px;
+transform:scale(1,1);
+  transition:1s;
+
+}
+.season1:hover{
+   transform:scale(1.3,1.3);
+  transition:1s;
+}
+.season2{
+  margin-left:40px;
+  margin-bottom:30px;
+  border:1px solid grey;
+  border-radius:10px;
+ transform:scale(1,1);
+  transition:1s;
+
+}
+.season2:hover{
+   transform:scale(1.3,1.3);
+  transition:1s;
+}
+.vol1{
+  margin-left:40px;
+  margin-bottom:30px;
+  border:1px solid grey;
+  border-radius:10px;
+ transform:scale(1,1);
+  transition:1s;
+
+}
+.vol1:hover{
+   transform:scale(1.3,1.3);
+  transition:1s;
+}
+.vol2{
+  margin-left:40px;
+  margin-bottom:30px;
+  border:1px solid grey;
+  border-radius:10px;
+ transform:scale(1,1);
+  transition:1s;
+ 
+}
+.vol2:hover{
+   transform:scale(1.3,1.3);
+  transition:1s;
+}
+
+footer{
+  padding:15px;
+  margin-top:30px;
+  margin-bottom:30px;
+  font-size:22px;
+}
+
+.imgmenu{
+ 
+  transform:scale(1,1);
+  transition:1s;
+}
+.imgmenu:hover{
+  transform:scale(1.3,1.3);
+  transition:1s;
+  
+}
+
